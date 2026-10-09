@@ -1,0 +1,16 @@
+{
+  "name": "NetControl Mobile",
+  "short_name": "NetControl",
+  "description": "Network & OpenWrt Router Control — PWA",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b1220",
+  "theme_color": "#0b1220",
+  "lang": "ar",
+  "dir": "auto",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
