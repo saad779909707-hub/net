@@ -1,0 +1,16 @@
+@media (min-width: 700px) {
+  .bottomnav { border-radius: 20px 20px 0 0; }
+  .modal-backdrop { place-items: center; }
+  .modal { border-radius: 22px; }
+}
+@media (min-width: 1024px) {
+  .view { max-width: 900px; }
+  .grid2 { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+}
+@media (hover: hover) {
+  .btn:hover { filter: brightness(1.08); }
+  .nav-btn:hover { color: var(--accent); }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
